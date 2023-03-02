@@ -62,7 +62,7 @@ import software.amazon.awssdk.http.SdkHttpFullRequest;
 import software.amazon.awssdk.http.SdkHttpMethod;
 import software.amazon.awssdk.http.SdkHttpRequest;
 import software.amazon.awssdk.metrics.NoOpMetricCollector;
-import software.amazon.awssdk.protocols.xml.AwsS3ProtocolFactory;
+import software.amazon.awssdk.protocols.json.AwsS3ProtocolFactory;
 import software.amazon.awssdk.regions.ServiceMetadataAdvancedOption;
 import software.amazon.awssdk.services.s3.S3Configuration;
 import software.amazon.awssdk.services.s3.endpoints.S3ClientContextParams;
